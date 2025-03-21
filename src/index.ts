@@ -10,9 +10,9 @@ dotenv.config(); // Load environment variables
 // Function to initialize an admin (example)
 export const insertAdmin = async () => {
   const sampleAdmin = {
-    userName: "nourAlSafwa",
-    email: "admin12@gmail.com",
-    password: "admin@12",
+    userName: "KANZUL HIND",
+    email: "master12@gmail.com",
+    password: "master@12",
   };
   // Insert logic for saving admin to the database if required here
 
