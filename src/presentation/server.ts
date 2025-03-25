@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors(corsOptions));
 
-app.use("/admin",adminRoutes(adminDependencies))
+app.use("/api/v1/admin",adminRoutes(adminDependencies))
 
 // Default route
 app.use("*", (req: Request, res: Response) => {
